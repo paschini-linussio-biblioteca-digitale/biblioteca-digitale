@@ -840,12 +840,12 @@
   },
   {
     "id": 50,
-    "titolo": "Le nozze di Cadmo e Armonica",
+    "titolo": "Le nozze di Cadmo e Armonia",
     "autore": "Calasso, Roberto",
     "anno": 1993,
     "editore": "Adelphi",
     "isbn": "8845908143",
-    "link_sbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO00588674",
     "temi": [
       "Identità",
       "Storia e Memoria",
@@ -1276,7 +1276,7 @@
   },
   {
     "id": 75,
-    "titolo": "5: L'airone",
+    "titolo": "L'airone",
     "autore": "Bassani, Giorgio",
     "anno": 1987,
     "editore": "Mondadori",
@@ -1439,7 +1439,7 @@
     "anno": 2005,
     "editore": "Einaudi",
     "isbn": "8806163906",
-    "link_sbn": "",
+    "link_sbn": "http://id.sbn.it/bid/URB0538179",
     "temi": [
       "Relazioni",
       "Società",
@@ -1598,7 +1598,7 @@
     "anno": 1986,
     "editore": "Loescher Editore",
     "isbn": "",
-    "link_sbn": "",
+    "link_sbn": "http://id.sbn.it/bid/CFI0026169",
     "temi": [
       "Società",
       "Natura, Scienza e Futuro",
@@ -1615,7 +1615,7 @@
     "anno": 1976,
     "editore": "A. Mondadori",
     "isbn": "",
-    "link_sbn": "",
+    "link_sbn": "http://id.sbn.it/bid/MES0006920",
     "temi": [
       "Relazioni",
       "Identità",
@@ -1649,7 +1649,7 @@
     "anno": 1985,
     "editore": "Arnoldo Mondadori",
     "isbn": "",
-    "link_sbn": "",
+    "link_sbn": "http://id.sbn.it/bid/CFI0103812",
     "temi": [
       "Formazione",
       "Relazioni",
@@ -1684,7 +1684,7 @@
     "anno": 1991,
     "editore": "A. Mondadori",
     "isbn": "",
-    "link_sbn": "",
+    "link_sbn": "http://id.sbn.it/bid/IEI0717159",
     "temi": [
       "Relazioni",
       "Identità",
@@ -1949,7 +1949,7 @@
     "anno": 1972,
     "editore": "Feltrinelli",
     "isbn": "",
-    "link_sbn": "",
+    "link_sbn": "http://id.sbn.it/bid/MOD0044970",
     "temi": [
       "Identità",
       "Società",
@@ -2828,7 +2828,7 @@
   },
   {
     "id": 164,
-    "titolo": "IL sentiero dei nidi di ragno",
+    "titolo": "Il sentiero dei nidi di ragno",
     "autore": "Calvino, Italo",
     "anno": 1948,
     "editore": "Einaudi",
@@ -2846,7 +2846,7 @@
   {
     "id": 165,
     "titolo": "Deviazione",
-    "autore": "d'Eramo, Luce",
+    "autore": "D'Eramo, Luce",
     "anno": 1979,
     "editore": "Arnoldo Mondadori",
     "isbn": "",
@@ -2914,7 +2914,7 @@
   {
     "id": 169,
     "titolo": "Deviazione",
-    "autore": "d'Eramo, Luce",
+    "autore": "D'Eramo, Luce",
     "anno": 1981,
     "editore": "Oscar Mondadori",
     "isbn": "",
@@ -3254,7 +3254,7 @@
   {
     "id": 189,
     "titolo": "Il vecchio con gli stivali e i racconti",
-    "autore": "Brancati",
+    "autore": "Brancati, Vitaliano",
     "anno": 1958,
     "editore": "Bompiani",
     "isbn": "",
@@ -3628,7 +3628,7 @@
   {
     "id": 211,
     "titolo": "Nessuno torna indietro",
-    "autore": "de Céspedes, Alba",
+    "autore": "De Céspedes, Alba",
     "anno": 1975,
     "editore": "Oscar Mondadori",
     "isbn": "",
@@ -4257,7 +4257,7 @@
   {
     "id": 248,
     "titolo": "I ventitre giorni della città di Alba",
-    "autore": "Fenogli, Beppe",
+    "autore": "Fenoglio, Beppe",
     "anno": 1991,
     "editore": "Einaudi",
     "isbn": "8806411373",
@@ -5277,7 +5277,7 @@
   {
     "id": 308,
     "titolo": "Bianca come il latte rossa come il sangue",
-    "autore": "D'avenia, Alessandro",
+    "autore": "D'Avenia, Alessandro",
     "anno": 2019,
     "editore": "Mondadori",
     "isbn": "9788804666578",
@@ -6432,7 +6432,7 @@
   },
   {
     "id": 376,
-    "titolo": "Opere 2",
+    "titolo": "Opere, vol. 2",
     "autore": "Ginzburg Natalia",
     "anno": 1987,
     "editore": "Mondadori",
@@ -6466,7 +6466,7 @@
   },
   {
     "id": 378,
-    "titolo": "Opere morali e filosofiche, III, IV",
+    "titolo": "Opere morali e filosofiche, vol. III, IV",
     "autore": "Manzoni, Alessandro",
     "anno": 1963,
     "editore": "Mondadori",
@@ -6503,7 +6503,7 @@
   },
   {
     "id": 380,
-    "titolo": "3racconti",
+    "titolo": "Tre racconti",
     "autore": "Chiara, Piero",
     "anno": 1988,
     "editore": "Oscar Mondadori",
@@ -6521,7 +6521,7 @@
   {
     "id": 381,
     "titolo": "Vita di chirurgo",
-    "autore": "Andrea Majocchi",
+    "autore": "Majocchi, Andrea",
     "anno": 1953,
     "editore": "Garzanti",
     "isbn": "",
@@ -7252,8 +7252,8 @@
   },
   {
     "id": 424,
-    "titolo": "Il mio nome è nessuno il ritorno",
-    "autore": "Valerio Massimo, Manfredi",
+    "titolo": "Il mio nome è Nessuno. Il ritorno",
+    "autore": "Manfredi, Valerio M.",
     "anno": 2013,
     "editore": "Mondadori",
     "isbn": "9788804628705",
@@ -7882,7 +7882,7 @@
   {
     "id": 461,
     "titolo": "Tutti i colori del mondo",
-    "autore": "",
+    "autore": "Montanaro, Giovanni",
     "anno": 2011,
     "editore": "Feltrinelli",
     "isbn": "9788807018886",
@@ -8341,7 +8341,7 @@
   {
     "id": 488,
     "titolo": "Fai bei sogni",
-    "autore": "Massimo Gramellini",
+    "autore": "Gramellini, Massimo",
     "anno": 2012,
     "editore": "Longanesi",
     "isbn": "",
@@ -16024,7 +16024,7 @@
   },
   {
     "id": 940,
-    "titolo": "Pensando Montagne",
+    "titolo": "Pensando montagne : i dieci racconti finalisti al premio Carnia Savorgnan per un racconto di montagna",
     "autore": "",
     "anno": 1989,
     "editore": "Campanotto",
@@ -16994,7 +16994,7 @@
   {
     "id": 997,
     "titolo": "Poesia italiana-il Duecento",
-    "autore": "",
+    "autore": "Cudini, Piero (a cura di)",
     "anno": 1978,
     "editore": "Garzanti",
     "isbn": "",
@@ -17605,7 +17605,7 @@
   {
     "id": 1033,
     "titolo": "Lettere di antifascisti dal carcere e dal confino I",
-    "autore": "Autori vari",
+    "autore": "AA. VV.",
     "anno": 1963,
     "editore": "Editori Riuniti",
     "isbn": "",
@@ -17639,7 +17639,7 @@
   {
     "id": 1035,
     "titolo": "lettere di antifascisti dal carcere e dal confino II",
-    "autore": "Autori vari",
+    "autore": "AA. VV.",
     "anno": 1963,
     "editore": "Editori Riuniti",
     "isbn": "",
@@ -18183,7 +18183,7 @@
   {
     "id": 1067,
     "titolo": "Ad infera",
-    "autore": "Autori vari",
+    "autore": "AA. VV.",
     "anno": 2012,
     "editore": "Progjet colonos",
     "isbn": "",
@@ -18219,7 +18219,7 @@
     "titolo": "L'isola dei due mondi",
     "autore": "Brooks, Gerardine",
     "anno": 2011,
-    "editore": "Neri pozza",
+    "editore": "Neri Pozza",
     "isbn": "",
     "link_sbn": "http://id.sbn.it/bid/LO11378883",
     "temi": [
@@ -19050,7 +19050,7 @@
   {
     "id": 1118,
     "titolo": "E le stelle stanno a guardare",
-    "autore": "Cronin j.a.",
+    "autore": "Cronin, Archibald J.",
     "anno": 1993,
     "editore": "Bompiani",
     "isbn": "8845216756",
@@ -19118,7 +19118,7 @@
   {
     "id": 1122,
     "titolo": "Gran Canaria",
-    "autore": "Cronin j.a.",
+    "autore": "Cronin, Archibald J.",
     "anno": null,
     "editore": "Bompiani",
     "isbn": "",
@@ -21277,7 +21277,7 @@
   {
     "id": 1249,
     "titolo": "Il tallone di ferro",
-    "autore": "Londo, Jack",
+    "autore": "London, Jack",
     "anno": 1987,
     "editore": "Feltrinelli",
     "isbn": "8807806436",
@@ -21395,6 +21395,1910 @@
   },
   {
     "id": 1256,
+    "titolo": "Clarel",
+    "autore": "Melville, Herman",
+    "anno": 1965,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO00671355",
+    "temi": [
+      "Identità",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 113,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1257,
+    "titolo": "Billy Budd e altri racconti",
+    "autore": "Melville, Herman",
+    "anno": 1992,
+    "editore": "Einaudi",
+    "isbn": "9788806128272",
+    "link_sbn": "http://id.sbn.it/bid/LO10093305",
+    "temi": [
+      "Identità",
+      "Società",
+      "Legalità"
+    ],
+    "pagine": 516,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1258,
+    "titolo": "Billy Budd : marinaio",
+    "autore": "Melville, Herman",
+    "anno": null,
+    "editore": "Tascabili La spiga",
+    "isbn": "8871008723",
+    "link_sbn": "http://id.sbn.it/bid/CFI0326047",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Legalità"
+    ],
+    "pagine": 135,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1259,
+    "titolo": "Moby Dick",
+    "autore": "Melville, Herman",
+    "anno": 1986,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/MOL0192488",
+    "temi": [
+      "Identità",
+      "Società",
+      "Natura, Scienza e Futuro"
+    ],
+    "pagine": 583,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1260,
+    "titolo": "Moby Dick",
+    "autore": "Melville, Herman",
+    "anno": 1988,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RLZ0216275",
+    "temi": [
+      "Identità",
+      "Società",
+      "Natura, Scienza e Futuro"
+    ],
+    "pagine": 500,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1261,
+    "titolo": "La montagna dalle sette balze",
+    "autore": "Merton, Thomas",
+    "anno": 1979,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/UBO0095918",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 497,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1262,
+    "titolo": "Nexus",
+    "autore": "Miller, Henry",
+    "anno": 1970,
+    "editore": "Longanesi & C.",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LIA0032758",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 328,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1263,
+    "titolo": "Tropico del Capricorno",
+    "autore": "Miller, Henry",
+    "anno": 1980,
+    "editore": "Feltrinelli",
+    "isbn": "8807808889",
+    "link_sbn": "http://id.sbn.it/bid/CAG0051263",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 347,
+    "copie": 1,
+    "sezione": "Non classificato"
+  },
+  {
+    "id": 1264,
+    "titolo": "Via col vento",
+    "autore": "Mitchell, Margaret",
+    "anno": 1973,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RAV0032186",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 945,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1265,
+    "titolo": "L'uomo che odiava Sherlock Holmes",
+    "autore": "Moore, Graham",
+    "anno": 2013,
+    "editore": "BUR Rizzoli",
+    "isbn": "9788817066518",
+    "link_sbn": "http://id.sbn.it/bid/UFE0978847",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 359,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1266,
+    "titolo": "Il peso",
+    "autore": "Moore, Liz",
+    "anno": 2012,
+    "editore": "Neri Pozza",
+    "isbn": "9788854506114",
+    "link_sbn": "http://id.sbn.it/bid/RAV1970577",
+    "temi": [
+      "Identità",
+      "Storia e Memoria",
+      "Natura, Scienza e Futuro"
+    ],
+    "pagine": 351,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1267,
+    "titolo": "Fedeli a oltranza : un viaggio tra i popoli convertiti all'islam",
+    "autore": "Naipaul, V. S.",
+    "anno": 2003,
+    "editore": "Adelphi",
+    "isbn": "9788845918025",
+    "link_sbn": "http://id.sbn.it/bid/UBO2291513",
+    "temi": [
+      "Identità",
+      "Società",
+      "Migrazioni"
+    ],
+    "pagine": 523,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1268,
+    "titolo": "Paranoid park",
+    "autore": "Nelson Blake",
+    "anno": 2007,
+    "editore": "Rizzoli",
+    "isbn": "9788817019767",
+    "link_sbn": "http://id.sbn.it/bid/LO11163679",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Legalità"
+    ],
+    "pagine": 130,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1269,
+    "titolo": "Metà di un sole giallo",
+    "autore": "Adichie, Chimamanda Ngozi",
+    "anno": 2010,
+    "editore": "Einaudi",
+    "isbn": "9788806203023",
+    "link_sbn": "http://id.sbn.it/bid/UM10111365",
+    "temi": [
+      "Relazioni",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 450,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1270,
+    "titolo": "Occhi di tempesta",
+    "autore": "Oates, Joyce Carol",
+    "anno": 2005,
+    "editore": "Mondadori",
+    "isbn": "8804550430",
+    "link_sbn": "http://id.sbn.it/bid/UBO2869473",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 213,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1271,
+    "titolo": "La fattoria degli animali",
+    "autore": "Orwell George",
+    "anno": 1981,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RMS1792057",
+    "temi": [
+      "Società",
+      "Storia e Memoria",
+      "Legalità"
+    ],
+    "pagine": 152,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1272,
+    "titolo": "Fiorira l'aspidistra",
+    "autore": "Orwell, George",
+    "anno": 1975,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0025776",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 320,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1273,
+    "titolo": "1984",
+    "autore": "Orwell George",
+    "anno": 1983,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RCA0885048",
+    "temi": [
+      "Identità",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 341,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1274,
+    "titolo": "Ritratti immaginari",
+    "autore": "Pater, Walter",
+    "anno": 1980,
+    "editore": "Adelphi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LO10069191",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 205,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1275,
+    "titolo": "Il toro sul Nilo",
+    "autore": "Baffo, Salvatore",
+    "anno": 1992,
+    "editore": "Giunti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/MOD0018930",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 117,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1276,
+    "titolo": "Quando il cielo non basta",
+    "autore": "Philbrick, Rodman",
+    "anno": 2003,
+    "editore": "Fabbri",
+    "isbn": "8845182843",
+    "link_sbn": "http://id.sbn.it/bid/RAV1148486",
+    "temi": [
+      "Identità",
+      "Storia e Memoria",
+      "Natura, Scienza e Futuro"
+    ],
+    "pagine": 181,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1277,
+    "titolo": "Opere scelte",
+    "autore": "Poe, Edgar Allan",
+    "anno": 1971,
+    "editore": "Mondadori",
+    "isbn": "9788804097785",
+    "link_sbn": "http://id.sbn.it/bid/RAV0152182",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 1414,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1278,
+    "titolo": "Racconti",
+    "autore": "Poe, Edgar Allan",
+    "anno": 1978,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RMS1585166",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Legalità"
+    ],
+    "pagine": 522,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1279,
+    "titolo": "I racconti",
+    "autore": "Poe, Edgar Allan",
+    "anno": 1983,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RLZ0204289",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Legalità"
+    ],
+    "pagine": 1040,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1280,
+    "titolo": "Il mio nome è Asher Lev",
+    "autore": "Potok, Chaim",
+    "anno": 2015,
+    "editore": "Garzanti",
+    "isbn": "9788811632153",
+    "link_sbn": "http://id.sbn.it/bid/CFI0766845",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Legalità"
+    ],
+    "pagine": 317,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1281,
+    "titolo": "Zebra e altri racconti",
+    "autore": "Potok, Chaim",
+    "anno": 2010,
+    "editore": "Garzanti",
+    "isbn": "8811685478",
+    "link_sbn": "http://id.sbn.it/bid/CSA0101826",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 167,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1282,
+    "titolo": "I Cantos",
+    "autore": "Pound, Ezra",
+    "anno": 1999,
+    "editore": "Mondadori",
+    "isbn": "8804263717",
+    "link_sbn": "http://id.sbn.it/bid/TSA0053339",
+    "temi": [
+      "Identità",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 1659,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1283,
+    "titolo": "Giobbe : romanzo di un uomo semplice",
+    "autore": "Roth, Joseph",
+    "anno": 1980,
+    "editore": "Adelphi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO02044422",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Migrazioni"
+    ],
+    "pagine": 195,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1284,
+    "titolo": "Poesie e satire",
+    "autore": "Rochester, John",
+    "anno": 1968,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0100976",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 246,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1285,
+    "titolo": "Il generale",
+    "autore": "Forester, C. S.",
+    "anno": 1943,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LO10058725",
+    "temi": [
+      "Identità",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 290,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1286,
+    "titolo": "Il cardinale",
+    "autore": "Robinson, Henry Morton",
+    "anno": 1954,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/UM10068227",
+    "temi": [
+      "Formazione",
+      "Storia e Memoria",
+      "Legalità"
+    ],
+    "pagine": 654,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1287,
+    "titolo": "Jacob Due-Due contro Zanna Incappucciata",
+    "autore": "Richler, Mordecai",
+    "anno": 2003,
+    "editore": "Adelphi",
+    "isbn": "9788845917707",
+    "link_sbn": "http://id.sbn.it/bid/LO10740548",
+    "temi": [
+      "Formazione",
+      "Legalità",
+      "Fantasia"
+    ],
+    "pagine": 94,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1288,
+    "titolo": "La profezia segreta di Mozart",
+    "autore": "Rees, Matt",
+    "anno": 2012,
+    "editore": "Newton Compton",
+    "isbn": "9788854141568",
+    "link_sbn": "http://id.sbn.it/bid/UBO3959162",
+    "temi": [
+      "Relazioni",
+      "Storia e Memoria",
+      "Legalità"
+    ],
+    "pagine": 318,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1289,
+    "titolo": "Il conte Karlstein",
+    "autore": "Pullman, Philip",
+    "anno": 2003,
+    "editore": "Salani",
+    "isbn": "9788884512413",
+    "link_sbn": "http://id.sbn.it/bid/CAG0424759",
+    "temi": [
+      "Relazioni",
+      "Fantasia",
+      "Avventura"
+    ],
+    "pagine": 249,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1290,
+    "titolo": "Morte di Urban",
+    "autore": "Powers, J. F.",
+    "anno": 1964,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RAV0055555",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 274,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1291,
+    "titolo": "Uhuru",
+    "autore": "Ruark, Robert C.",
+    "anno": 1964,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LUA0588267",
+    "temi": [
+      "Identità",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 655,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1292,
+    "titolo": "La vergogna",
+    "autore": "Rushdie, Salman",
+    "anno": 1985,
+    "editore": "Garzanti",
+    "isbn": "9788811667988",
+    "link_sbn": "http://id.sbn.it/bid/CFI0102159",
+    "temi": [
+      "Identità",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 257,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1293,
+    "titolo": "Ivanhoe",
+    "autore": "Scott, Walter",
+    "anno": 1952,
+    "editore": "Rizzoli",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TSA1900926",
+    "temi": [
+      "Identità",
+      "Società",
+      "Avventura"
+    ],
+    "pagine": 269,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1294,
+    "titolo": "Il giorno più lungo : 6 giugno 1944",
+    "autore": "Ryan, Cornelius",
+    "anno": 1961,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0528273",
+    "temi": [
+      "Società",
+      "Storia e Memoria",
+      "Avventura"
+    ],
+    "pagine": 286,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1295,
+    "titolo": "Il giorno più lungo",
+    "autore": "Ryan, Cornelius",
+    "anno": 1968,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/CFI0337391",
+    "temi": [
+      "Società",
+      "Storia e Memoria",
+      "Avventura"
+    ],
+    "pagine": 270,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1296,
+    "titolo": "Amabili resti",
+    "autore": "Sebold, Alice",
+    "anno": 2010,
+    "editore": "Edizioni e/o",
+    "isbn": "9788876415135",
+    "link_sbn": "http://id.sbn.it/bid/RMS2461530",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 355,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1297,
+    "titolo": "Che ve ne sembra dell'America?",
+    "autore": "Saroyan, William",
+    "anno": 1965,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RMS2850013",
+    "temi": [
+      "Identità",
+      "Società",
+      "Migrazioni"
+    ],
+    "pagine": 343,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1298,
+    "titolo": "La barzelletta più divertente del mondo",
+    "autore": "Sachar, Louis",
+    "anno": 2004,
+    "editore": "Piemme Junior",
+    "isbn": "9788838436864",
+    "link_sbn": "http://id.sbn.it/bid/CAM0016162",
+    "temi": [
+      "Società",
+      "Storia e Memoria",
+      "Fantasia"
+    ],
+    "pagine": 230,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1299,
+    "titolo": "La cugina americana",
+    "autore": "Segal, Francesca",
+    "anno": 2012,
+    "editore": "Bollati Boringhieri",
+    "isbn": "9788833923161",
+    "link_sbn": "",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 339,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1300,
+    "titolo": "Buchi nel deserto",
+    "autore": "Sachar, Louis",
+    "anno": 1999,
+    "editore": "Piemme junior",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RAV0340500",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Legalità"
+    ],
+    "pagine": 249,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1301,
+    "titolo": "C'è un maschio nel bagno delle femmine!",
+    "autore": "Sachar, Louis",
+    "anno": 2002,
+    "editore": "Piemme junior",
+    "isbn": "9788838436611",
+    "link_sbn": "",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 251,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1302,
+    "titolo": "Sonetti",
+    "autore": "Shakespeare, William",
+    "anno": 1956,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO02013333",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 373,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1303,
+    "titolo": "I sonetti",
+    "autore": "Shakespeare, William",
+    "anno": 1988,
+    "editore": "Newton Compton",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LO10027295",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 191,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1304,
+    "titolo": "Mendicante ladro",
+    "autore": "Shaw, Irwin",
+    "anno": 1978,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0330754",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 405,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1305,
+    "titolo": "Povero ricco",
+    "autore": "Shaw, Irwin",
+    "anno": 1981,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0305906",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Società"
+    ],
+    "pagine": 702,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1306,
+    "titolo": "Gimpel l'idiota",
+    "autore": "Singer, Isaac Bashevis",
+    "anno": 1980,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0307583",
+    "temi": [
+      "Identità",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 376,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1307,
+    "titolo": "Poemetti e liriche",
+    "autore": "Shelley, Percy Bysshe",
+    "anno": 1947,
+    "editore": "Unione Tipografico Editrice Torinese",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LIG0062599",
+    "temi": [
+      "Società",
+      "Natura, Scienza e Futuro",
+      "Fantasia"
+    ],
+    "pagine": 239,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1308,
+    "titolo": "Frankenstein",
+    "autore": "Shelley, Mary",
+    "anno": 2011,
+    "editore": "Biblioteca universale Rizzoli",
+    "isbn": "9788822170231",
+    "link_sbn": "http://id.sbn.it/bid/PAL0095163",
+    "temi": [
+      "Identità",
+      "Società",
+      "Natura, Scienza e Futuro"
+    ],
+    "pagine": 209,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1309,
+    "titolo": "Operazione superscambio",
+    "autore": "Shearer, Alex",
+    "anno": 2006,
+    "editore": "Salani",
+    "isbn": "8884516765",
+    "link_sbn": "http://id.sbn.it/bid/UBO2981580",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 300,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1310,
+    "titolo": "Se domani verrà",
+    "autore": "Sheldon, Sidney",
+    "anno": 1985,
+    "editore": "Sperling & Kupfer",
+    "isbn": "8820004690",
+    "link_sbn": "http://id.sbn.it/bid/CFI0094150",
+    "temi": [
+      "Identità",
+      "Legalità",
+      "Avventura"
+    ],
+    "pagine": 481,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1311,
+    "titolo": "Shosha",
+    "autore": "Singer, Isaac B.",
+    "anno": 1979,
+    "editore": "Longanesi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RAV0182564",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 222,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1312,
+    "titolo": "Un'aquila nel cielo",
+    "autore": "Smith, Wilbur A.",
+    "anno": 1974,
+    "editore": "Longanesi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RMS2652467",
+    "temi": [
+      "Relazioni",
+      "Storia e Memoria",
+      "Avventura"
+    ],
+    "pagine": 340,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1313,
+    "titolo": "Crash",
+    "autore": "Spinelli, Jerry",
+    "anno": 1996,
+    "editore": "Mondadori",
+    "isbn": "8804449500",
+    "link_sbn": "http://id.sbn.it/bid/PAL0224925",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 200,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1314,
+    "titolo": "Guerre in famiglia",
+    "autore": "Spinelli, Jerry",
+    "anno": 1994,
+    "editore": "Mondadori",
+    "isbn": "9788804436942",
+    "link_sbn": "http://id.sbn.it/bid/RLZ0194219",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 192,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1315,
+    "titolo": "La schiappa",
+    "autore": "Spinelli, Jerry",
+    "anno": 2003,
+    "editore": "Mondadori",
+    "isbn": "9788804543282",
+    "link_sbn": "http://id.sbn.it/bid/VIA0219062",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 166,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1316,
+    "titolo": "Stargirl",
+    "autore": "Spinelli, Jerry",
+    "anno": 2001,
+    "editore": "Mondadori",
+    "isbn": "9788804530305",
+    "link_sbn": "http://id.sbn.it/bid/LO10543682",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 171,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1317,
+    "titolo": "Tiro al piccione",
+    "autore": "Spinelli, Jerry",
+    "anno": 1999,
+    "editore": "Mondadori",
+    "isbn": "9788804465089",
+    "link_sbn": "http://id.sbn.it/bid/RAV0332778",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 208,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1318,
+    "titolo": "I pascoli del cielo",
+    "autore": "Steinbeck, John",
+    "anno": 1975,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RCA0006800",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 222,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1319,
+    "titolo": "Pian della Tortilla",
+    "autore": "Steinbeck, John",
+    "anno": 1980,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO01645712",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 224,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1320,
+    "titolo": "Pian della Tortilla",
+    "autore": "Steinbeck, John",
+    "anno": 1961,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO00361589",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 214,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1321,
+    "titolo": "La Santa Rossa",
+    "autore": "Steinbeck, John",
+    "anno": 1975,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/URB0526940",
+    "temi": [
+      "Identità",
+      "Società",
+      "Avventura"
+    ],
+    "pagine": 240,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1322,
+    "titolo": "Uomini e topi",
+    "autore": "Steinbeck, John",
+    "anno": 1963,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO02164757",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 181,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1323,
+    "titolo": "Uomini e topi",
+    "autore": "Steinbeck, John",
+    "anno": 1988,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RLZ0189070",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 119,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1324,
+    "titolo": "La valle dell'Eden",
+    "autore": "Steinbeck, John",
+    "anno": 1977,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LIA0116277",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 675,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1325,
+    "titolo": "Un viaggio sentimentale",
+    "autore": "Sterne, Laurence",
+    "anno": 1964,
+    "editore": "Unione tipografico-editrice torinese",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/MIL0337978",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Fantasia"
+    ],
+    "pagine": 162,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1326,
+    "titolo": "L'isola del tesoro",
+    "autore": "Stevenson, Robert L.",
+    "anno": 1963,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RLZ0244923",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Avventura"
+    ],
+    "pagine": 206,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1327,
+    "titolo": "L'isola del tesoro",
+    "autore": "Stevenson, Robert L.",
+    "anno": 1991,
+    "editore": "Biblioteca universale Rizzoli",
+    "isbn": "9788817151368",
+    "link_sbn": "http://id.sbn.it/bid/VIA0024901",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Avventura"
+    ],
+    "pagine": 284,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1328,
+    "titolo": "L'isola del tesoro",
+    "autore": "Stevenson, Robert L.",
+    "anno": 1990,
+    "editore": "Adelphi",
+    "isbn": "9788845907791",
+    "link_sbn": "http://id.sbn.it/bid/RAV0119663",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Avventura"
+    ],
+    "pagine": 292,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1329,
+    "titolo": "L' isola del tesoro",
+    "autore": "Stevenson, Robert L.",
+    "anno": 1999,
+    "editore": "Garzanti",
+    "isbn": "8811587352",
+    "link_sbn": "http://id.sbn.it/bid/NAP0773527",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Avventura"
+    ],
+    "pagine": 237,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1330,
+    "titolo": "L'isola del tesoro",
+    "autore": "Stevenson, Robert L.",
+    "anno": 1980,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/MIL0064143",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Avventura"
+    ],
+    "pagine": 217,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1331,
+    "titolo": "Lo strano caso del dottor Jekyll e del signor Hyde",
+    "autore": "Stevenson, Robert L.",
+    "anno": 1987,
+    "editore": "Garzanti",
+    "isbn": "9788811583486",
+    "link_sbn": "http://id.sbn.it/bid/CFI0101833",
+    "temi": [
+      "Identità",
+      "Società",
+      "Natura, Scienza e Futuro"
+    ],
+    "pagine": 129,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1332,
+    "titolo": "Scritti satirici e polemici",
+    "autore": "Swift, Jonathan",
+    "anno": 1988,
+    "editore": "Einaudi",
+    "isbn": "9788806600150",
+    "link_sbn": "http://id.sbn.it/bid/CFI0130424",
+    "temi": [
+      "Società",
+      "Storia e Memoria",
+      "Fantasia"
+    ],
+    "pagine": 427,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1333,
+    "titolo": "I viaggi di Gulliver",
+    "autore": "Swift, Jonathan",
+    "anno": 1963,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RLZ0204306",
+    "temi": [
+      "Identità",
+      "Società",
+      "Fantasia"
+    ],
+    "pagine": 256,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1334,
+    "titolo": "Viaggi di Gulliver in vari paesi del mondo",
+    "autore": "Swift, Jonathan",
+    "anno": 1952,
+    "editore": "Biblioteca universale Rizzoli",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RMS1387514",
+    "temi": [
+      "Identità",
+      "Società",
+      "Fantasia"
+    ],
+    "pagine": 320,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1335,
+    "titolo": "La fiera della vanità",
+    "autore": "Thackeray, William M.",
+    "anno": 2004,
+    "editore": "Rusconi",
+    "isbn": "9788818016956",
+    "link_sbn": "http://id.sbn.it/bid/RMB0511596",
+    "temi": [
+      "Relazioni",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 646,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1336,
+    "titolo": "La fiera della vanità",
+    "autore": "Thackeray, William M.",
+    "anno": 1983,
+    "editore": "Garzanti",
+    "isbn": "8811519896",
+    "link_sbn": "http://id.sbn.it/bid/RLZ0055212",
+    "temi": [
+      "Relazioni",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 460,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1337,
+    "titolo": "Poesie",
+    "autore": "Thomas, Dylan",
+    "anno": null,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LZ10237435",
+    "temi": [
+      "Identità",
+      "Storia e Memoria",
+      "Natura, Scienza e Futuro"
+    ],
+    "pagine": 294,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1338,
+    "titolo": "Sotto il bosco di latte ; Il dottore e i diavoli",
+    "autore": "Thomas, Dylan",
+    "anno": 1972,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0442963",
+    "temi": [
+      "Società",
+      "Natura, Scienza e Futuro",
+      "Fantasia"
+    ],
+    "pagine": 226,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1339,
+    "titolo": "Tristano e Isotta",
+    "autore": "Thomas",
+    "anno": 1979,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0345276",
+    "temi": [
+      "Relazioni",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 122,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1340,
+    "titolo": "La danza del tempo",
+    "autore": "Thompson, Kate",
+    "anno": 2007,
+    "editore": "Mondadori",
+    "isbn": "9788804559498",
+    "link_sbn": "http://id.sbn.it/bid/NAP0952414",
+    "temi": [
+      "Relazioni",
+      "Storia e Memoria",
+      "Fantasia"
+    ],
+    "pagine": 368,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1341,
+    "titolo": "Il signore degli anelli : trilogia",
+    "autore": "Tolkien, J. R. R.",
+    "anno": 1971,
+    "editore": "Rusconi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RCA0389161",
+    "temi": [
+      "Relazioni",
+      "Storia e Memoria",
+      "Avventura"
+    ],
+    "pagine": 1359,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1342,
+    "titolo": "Il Silmarillion",
+    "autore": "Tolkien, J.R.R.",
+    "anno": 1978,
+    "editore": "Rusconi",
+    "isbn": "8818120492",
+    "link_sbn": "http://id.sbn.it/bid/RAV0020958",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 452,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1343,
+    "titolo": "Gli invisibili",
+    "autore": "Whybrow, Ian",
+    "anno": 2006,
+    "editore": "Feltrinelli",
+    "isbn": "9788807920974",
+    "link_sbn": "http://id.sbn.it/bid/UBO2922958",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 259,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1344,
+    "titolo": "La salamandra",
+    "autore": "West, Morris",
+    "anno": 1974,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/TO00368921",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 362,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1345,
+    "titolo": "Viaggio inaugurale",
+    "autore": "Welch, Denton",
+    "anno": 1990,
+    "editore": "Einaudi",
+    "isbn": "8806117602",
+    "link_sbn": "http://id.sbn.it/bid/CFI0185278",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 311,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1346,
+    "titolo": "L'inviato speciale",
+    "autore": "Waugh, Evelyn",
+    "anno": 1972,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/NAP0155545",
+    "temi": [
+      "Identità",
+      "Società",
+      "Fantasia"
+    ],
+    "pagine": 246,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1347,
+    "titolo": "L'assistente",
+    "autore": "Walser, Robert",
+    "anno": 1961,
+    "editore": "Einaudi",
+    "isbn": "9788806593056",
+    "link_sbn": "http://id.sbn.it/bid/CFI0850629",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 216,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1348,
+    "titolo": "Luna piena per il lupetto mannaro",
+    "autore": "Van Loon, Paul",
+    "anno": 2000,
+    "editore": "Salani",
+    "isbn": "8877829621",
+    "link_sbn": "http://id.sbn.it/bid/LO10526993",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 155,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1349,
+    "titolo": "Il lupetto mannaro",
+    "autore": "Van Loon, Paul",
+    "anno": 2000,
+    "editore": "Salani",
+    "isbn": "8877829621",
+    "link_sbn": "http://id.sbn.it/bid/LO10526993",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 155,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1350,
+    "titolo": "Il ranocchio saltatore e altri racconti",
+    "autore": "Twain, Mark",
+    "anno": 1950,
+    "editore": "Rizzoli",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/UBO0107351",
+    "temi": [
+      "Relazioni",
+      "Società",
+      "Fantasia"
+    ],
+    "pagine": 149,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1351,
+    "titolo": "Il furto dell'elefante bianco e altri racconti",
+    "autore": "Twain, Mark",
+    "anno": 1952,
+    "editore": "Rizzoli",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LIA0072933",
+    "temi": [
+      "Relazioni",
+      "Società",
+      "Fantasia"
+    ],
+    "pagine": 156,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1352,
+    "titolo": "Il bambino invisibile",
+    "autore": "Townson, Hazel",
+    "anno": 2006,
+    "editore": "Salani",
+    "isbn": "9788884512574",
+    "link_sbn": "http://id.sbn.it/bid/RAV1437099",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 94,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1353,
+    "titolo": "Ragazzo negro",
+    "autore": "Wright, Richard",
+    "anno": 1987,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RAV0101260",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 334,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1354,
+    "titolo": "Paura",
+    "autore": "Wright, Richard",
+    "anno": 1975,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0592379",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 423,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1355,
+    "titolo": "Fame americana",
+    "autore": "Wright, Richard",
+    "anno": 1978,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/BAS0271663",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 155,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1356,
+    "titolo": "Gita al faro",
+    "autore": "Woolf, Virginia",
+    "anno": 1982,
+    "editore": "Garzanti",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RAV0007076",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Storia e Memoria"
+    ],
+    "pagine": 225,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1357,
+    "titolo": "Zio Fred in primavera",
+    "autore": "Wodehouse, P. G.",
+    "anno": 1977,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/RAV0159944",
+    "temi": [
+      "Identità",
+      "Società",
+      "Fantasia"
+    ],
+    "pagine": 273,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1358,
+    "titolo": "C'è poco da ridere",
+    "autore": "Wilson, Jacqueline",
+    "anno": 2005,
+    "editore": "Salani",
+    "isbn": "9788877825414",
+    "link_sbn": "http://id.sbn.it/bid/UM10101814",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 195,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1359,
+    "titolo": "Lezioni di vita randagia",
+    "autore": "Wilson, Susan",
+    "anno": 2011,
+    "editore": "Piemme",
+    "isbn": "9788856610437",
+    "link_sbn": "http://id.sbn.it/bid/UBO3895609",
+    "temi": [
+      "Formazione",
+      "Relazioni",
+      "Identità"
+    ],
+    "pagine": 335,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1360,
+    "titolo": "Idi di marzo",
+    "autore": "Wilder, Thornton",
+    "anno": 1966,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/LIA0020951",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 289,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1361,
+    "titolo": "Il ritratto di Dorian Gray",
+    "autore": "Wilde, Oscar",
+    "anno": 1987,
+    "editore": "Mondadori",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0607965",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 268,
+    "copie": 2,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1362,
+    "titolo": "Il delitto di lord Arturo Savile",
+    "autore": "Wilde, Oscar",
+    "anno": 2003,
+    "editore": "Sellerio",
+    "isbn": "8838918597",
+    "link_sbn": "http://id.sbn.it/bid/TO01676969",
+    "temi": [
+      "Identità",
+      "Società",
+      "Fantasia"
+    ],
+    "pagine": 61,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1363,
+    "titolo": "L'occhio dell'uragano",
+    "autore": "White, Patrick",
+    "anno": 1974,
+    "editore": "Bompiani",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/MOD0123374",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 592,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1364,
+    "titolo": "Ultime lettere da Stalingrado",
+    "autore": "",
+    "anno": 1962,
+    "editore": "Einaudi",
+    "isbn": "9788806312947",
+    "link_sbn": "",
+    "temi": [
+      "Relazioni",
+      "Società",
+      "Storia e Memoria"
+    ],
+    "pagine": 101,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1365,
+    "titolo": "I fratelli di Soledad : lettere dal carcere di George Jackson",
+    "autore": "Jackson, George",
+    "anno": 1971,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/UM10034479",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 268,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1366,
+    "titolo": "Giovani poeti inglesi",
+    "autore": "AA.VV.",
+    "anno": 1976,
+    "editore": "Einaudi",
+    "isbn": "",
+    "link_sbn": "http://id.sbn.it/bid/SBL0019166",
+    "temi": [
+      "Formazione",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 264,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1367,
+    "titolo": "Il blues: saggio critico e raccolta di liriche della più importante forma di canto afro-americana",
+    "autore": "Roffeni, Alessandro (a cura di)",
+    "anno": 1973,
+    "editore": "Accademia Edizioni",
+    "isbn": "",
+    "link_sbn": "",
+    "temi": [
+      "Relazioni",
+      "Identità",
+      "Società"
+    ],
+    "pagine": 286,
+    "copie": 1,
+    "sezione": "Letteratura Inglese e Americana"
+  },
+  {
+    "id": 1368,
     "titolo": "Diario siciliano",
     "autore": "Patti, Ercole",
     "anno": 1971,
