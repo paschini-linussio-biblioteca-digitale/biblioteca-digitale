@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scheda — Biblioteca Digitale del Liceo</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAANdrf3qj7dPWmyaC/dAAAAAXRSTlMAQObYZgAAACRJREFUeAFjwASsoWAQQCkDE3CtAoMFlDIwAf9/MPhAKQMDAACA52+RIZud2AAAAABJRU5ErkJggg==" class="brand-logo" alt="">
+        <span class="brand-text">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <span class="brand-sub">Biblioteca Digitale</span>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Apri menu">Menu</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="catalogo.html">Catalogo</a>
+        <a href="statistiche.html">Statistiche</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-narrow">
+      <a href="javascript:history.back()" class="btn-back">← Torna ai risultati</a>
+    </div>
+
+    <article id="book-detail" class="book-detail">
+      <div class="loading">Caricamento scheda…</div>
+    </article>
+
+    <section id="related" class="container-narrow" style="margin: 5rem auto 2rem;">
+      <!-- Riempito via JS -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="col">
+        <a href="index.html" class="brand">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <div class="brand-sub">Biblioteca Digitale</div>
+        </a>
+        <p class="mt-2">Contatti: <small><a style="color:var(--ocra)" href="biblioteca@paschinilinussio.edu.it"> biblioteca@paschinilinussio.edu.it</a></small></p>
+      </div>
+      <div class="col">
+        <h4>Risorse correlate</h4>
+        <p>
+          <a href="https://opac.sbn.it" target="_blank" rel="noopener">OPAC SBN ↗</a><br>
+          <a href="https://www.leggereinfriuli.it/SebinaOpac/.do" target="_blank" rel="noopener">LeggereInFriuli ↗</a>
+        </p>
+      </div>
+      <div class="col">
+        <h4>Note metodologiche</h4>
+          <div>
+            <small>Con il supporto di</small>
+            <div>
+              <a href="https://fondazionefriuli.it/">
+                <img src="https://fondazionefriuli.it/static/home/imgs/logo-color.svg" style="max-width: 10em">
+              </a>
+            </div>
+          </div>
+          <small id="last-update">Catalogo aggiornato al 17 maggio 2026.</small>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script>
+    (async function init() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      const detailEl = document.getElementById('book-detail');
+      
+      if (!id) {
+        detailEl.innerHTML = '<div class="empty-state"><h3>Scheda non trovata</h3><p>Nessun identificativo specificato.</p></div>';
+        return;
+      }
+      
+      try {
+        const books = await window.LibApp.loadBooks();
+        const book = window.LibApp.findBook(books, id);
+        const prestiti = await window.LibApp.loadPrestiti();
+        
+        if (!book) {
+          detailEl.innerHTML = '<div class="empty-state"><h3>Scheda non trovata</h3><p>Il volume richiesto non è presente in catalogo.</p></div>';
+          return;
+        }
+        
+        document.title = `${book.titolo} — Biblioteca del Liceo`;
+        
+        const idStr = String(book.id).padStart(4, '0');
+        const E = window.LibApp.escapeHTML;
+        
+        const prestitiBook = prestiti[book.titolo];
+        const totPrestiti = prestitiBook ? prestitiBook.totale : 0;
+        
+        // Calcola il range di anni coperti dall'intero dataset prestiti
+        // (così il grafico copre tutto il periodo, non solo gli anni in cui
+        // questo libro è stato prestato)
+        const anniGlobali = new Set();
+        for (const p of Object.values(prestiti)) {
+          for (const a of Object.keys(p.per_anno)) anniGlobali.add(a);
+        }
+        const anniSorted = [...anniGlobali].sort();
+        const periodoLabel = anniSorted.length > 0 
+          ? `${anniSorted[0]}–${anniSorted[anniSorted.length - 1]}`
+          : '';
+        
+        detailEl.innerHTML = `
+          <div class="scheda-num">
+            Scheda N. ${idStr}
+            <span class="sezione-pill">${E(book.sezione)}</span>
+          </div>
+          <h1>${E(book.titolo)}</h1>
+          <div class="autore-line">${E(book.autore || 'Anonimo')}</div>
+          
+          <dl class="detail-grid">
+            <div>
+              <dt>Anno di pubblicazione</dt>
+              <dd>${book.anno || '<span style="color:var(--gray-500);font-style:italic;">non indicato</span>'}</dd>
+            </div>
+            <div>
+              <dt>Editore</dt>
+              <dd>${E(book.editore) || '<span style="color:var(--gray-500);font-style:italic;">non indicato</span>'}</dd>
+            </div>
+            <div>
+              <dt>ISBN</dt>
+              <dd style="font-family: var(--font-mono); font-size: 0.92rem;">${E(book.isbn) || '<span style="color:var(--gray-500);font-style:italic;font-family:var(--font-body);">non disponibile</span>'}</dd>
+            </div>
+            <div>
+              <dt>Pagine</dt>
+              <dd>${book.pagine || '—'}</dd>
+            </div>
+            <div>
+              <dt>Copie disponibili</dt>
+              <dd>${book.copie}</dd>
+            </div>
+            <div>
+              <dt>Prestiti registrati</dt>
+              <dd>${totPrestiti > 0 ? '<strong style="color: var(--rose);">' + totPrestiti.toLocaleString('it-IT') + '</strong> <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--gray-500);">(' + periodoLabel + ')</span>' : '<span style="color:var(--gray-500);font-style:italic;">nessuno</span>'}</dd>
+            </div>
+          </dl>
+          
+          ${book.temi.length ? `
+            <div class="detail-temi">
+              <span class="eyebrow">Aree tematiche</span>
+              <div class="tema-cloud">
+                ${book.temi.map(t => `<a href="catalogo.html?tema=${encodeURIComponent(t)}" class="tema-link">${E(t)}</a>`).join('')}
+              </div>
+            </div>
+          ` : ''}
+          
+          ${prestitiBook ? renderPrestitiChart(prestitiBook, anniSorted) : ''}
+          
+          ${book.link_sbn ? `
+            <a href="${E(book.link_sbn)}" target="_blank" rel="noopener" class="btn-primary">
+              Vedi su OPAC SBN ↗
+            </a>
+          ` : ''}
+        `;
+        
+        renderRelated(books, book);
+        
+      } catch (err) {
+        console.error(err);
+        detailEl.innerHTML = '<div class="empty-state"><h3>Errore</h3><p>Impossibile caricare la scheda.</p></div>';
+      }
+    })();
+    
+    function renderPrestitiChart(prestitiData, anniGlobali) {
+      // Usa il range globale se passato, altrimenti solo gli anni del libro
+      const anni = (anniGlobali && anniGlobali.length > 0) 
+        ? anniGlobali 
+        : Object.keys(prestitiData.per_anno).sort();
+      
+      const valori = Object.values(prestitiData.per_anno);
+      const max = valori.length > 0 ? Math.max(...valori) : 1;
+      
+      return `
+        <div class="detail-temi">
+          <span class="eyebrow">Storico prestiti</span>
+          <div class="prestiti-mini-chart">
+            ${anni.map(anno => {
+              const v = prestitiData.per_anno[anno] || 0;
+              const h = v > 0 ? Math.max(4, (v / max) * 100) : 0;
+              const isZero = v === 0;
+              return `
+                <div class="bar-col">
+                  <span class="bar-val" style="${isZero ? 'opacity: 0.3;' : ''}">${v}</span>
+                  <div class="bar-fill" style="height: ${h}%; ${isZero ? 'background: var(--gray-300);' : ''}"></div>
+                  <span class="bar-year">${anno}</span>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    function renderRelated(books, current) {
+      const related = books
+        .filter(b => 
+          b.id !== current.id && 
+          b.sezione === current.sezione &&
+          (b.autore === current.autore || (b.temi || []).some(t => current.temi.includes(t)))
+        )
+        .slice(0, 4);
+      
+      if (related.length === 0) return;
+      
+      const html = `
+        <span class="eyebrow">Letture suggerite</span>
+        <h3 style="font-style: italic; font-weight: 500; margin: 0.5rem 0 2rem; font-size: clamp(1.5rem, 3vw, 2.25rem);">
+          Continua a esplorare
+        </h3>
+        <div class="book-grid">
+          ${related.map(window.LibApp.bookCardHTML).join('')}
+        </div>
+      `;
+      document.getElementById('related').innerHTML = html;
+    }
+  </script>
+</body>
+</html>

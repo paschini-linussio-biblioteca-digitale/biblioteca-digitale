@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogo — Biblioteca Digitale del Liceo</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAANdrf3qj7dPWmyaC/dAAAAAXRSTlMAQObYZgAAACRJREFUeAFjwASsoWAQQCkDE3CtAoMFlDIwAf9/MPhAKQMDAACA52+RIZud2AAAAABJRU5ErkJggg==" class="brand-logo" alt="">
+        <span class="brand-text">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <span class="brand-sub">Biblioteca Digitale</span>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Apri menu">Menu</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="catalogo.html">Catalogo</a>
+        <a href="statistiche.html">Statistiche</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 3rem;">
+    <div style="margin-bottom: 1.5rem;">
+      <span class="eyebrow">Catalogo generale</span>
+      <h1 style="margin: 0.5rem 0 1.5rem; font-size: clamp(2.5rem, 5vw, 4rem); font-style: italic;">
+        Tutti i volumi
+      </h1>
+    </div>
+
+    <form class="search-bar" onsubmit="event.preventDefault()" role="search" style="margin-bottom: 2.5rem; max-width: none;">
+      <span class="icon">⌕</span>
+      <input 
+        type="search" 
+        id="search" 
+        placeholder="Cerca per titolo, autore, editore o tema…"
+        autocomplete="off"
+        aria-label="Cerca">
+    </form>
+
+    <div class="catalog-layout">
+      <aside class="filters" id="filters">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+          <span class="eyebrow">Filtri</span>
+          <button class="btn-clear" id="clear-filters">Azzera</button>
+        </div>
+
+        <div class="filter-group">
+          <h3>Sezione</h3>
+          <ul class="filter-list" id="filter-sezioni"></ul>
+        </div>
+
+        <div class="filter-group">
+          <h3>Temi</h3>
+          <ul class="filter-list" id="filter-temi"></ul>
+        </div>
+
+        <div class="filter-group">
+          <h3>Anno di pubblicazione</h3>
+          <div class="range-input">
+            <input type="number" id="anno-min" placeholder="Da" min="1800" max="2026">
+            <span>—</span>
+            <input type="number" id="anno-max" placeholder="A" min="1800" max="2026">
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Autore</h3>
+          <input type="search" id="autore-search" placeholder="Filtra autori…" 
+            style="width: 100%; padding: 0.45rem 0.65rem; border: 1px solid var(--gray-300); background: var(--white); font-family: var(--font-body); font-size: 0.85rem; border-radius: var(--radius); margin-bottom: 0.5rem;">
+          <ul class="filter-list" id="filter-autori"></ul>
+        </div>
+      </aside>
+
+      <section>
+        <div class="results-header">
+          <div class="results-count" id="count">
+            <em>Caricamento…</em>
+          </div>
+          <select class="sort-select" id="sort">
+            <option value="titolo">Per titolo (A→Z)</option>
+            <option value="titolo-desc">Per titolo (Z→A)</option>
+            <option value="autore">Per autore</option>
+            <option value="anno-desc">Più recenti</option>
+            <option value="anno">Più antichi</option>
+            <option value="relevance">Per rilevanza</option>
+          </select>
+        </div>
+
+        <div id="results">
+          <div class="loading">Caricamento del catalogo…</div>
+        </div>
+
+        <div class="pagination" id="pagination"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="col">
+        <a href="index.html" class="brand">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <div class="brand-sub">Biblioteca Digitale</div>
+        </a>
+        <p class="mt-2">Contatti: <small><a style="color:var(--ocra)" href="biblioteca@paschinilinussio.edu.it"> biblioteca@paschinilinussio.edu.it</a></small></p>
+      </div>
+      <div class="col">
+        <h4>Risorse correlate</h4>
+        <p>
+          <a href="https://opac.sbn.it" target="_blank" rel="noopener">OPAC SBN ↗</a><br>
+          <a href="https://www.leggereinfriuli.it/SebinaOpac/.do" target="_blank" rel="noopener">LeggereInFriuli ↗</a>
+        </p>
+      </div>
+      <div class="col">
+        <h4>Note metodologiche</h4>
+          <div>
+            <small>Con il supporto di</small>
+            <div>
+              <a href="https://fondazionefriuli.it/">
+                <img src="https://fondazionefriuli.it/static/home/imgs/logo-color.svg" style="max-width: 10em">
+              </a>
+            </div>
+          </div>
+          <small id="last-update">Catalogo aggiornato al 17 maggio 2026.</small>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/js/fuse.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/catalog.js"></script>
+</body>
+</html>

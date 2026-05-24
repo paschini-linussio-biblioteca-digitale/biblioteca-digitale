@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Digitale del Liceo</title>
+  <meta name="description" content="Catalogo digitale della biblioteca scolastica: oltre 1.250 volumi tra letteratura italiana, inglese e americana.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAANdrf3qj7dPWmyaC/dAAAAAXRSTlMAQObYZgAAACRJREFUeAFjwASsoWAQQCkDE3CtAoMFlDIwAf9/MPhAKQMDAACA52+RIZud2AAAAABJRU5ErkJggg==" class="brand-logo" alt="">
+        <span class="brand-text">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <span class="brand-sub">Biblioteca Digitale</span>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Apri menu">Menu</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="catalogo.html">Catalogo</a>
+        <a href="statistiche.html">Statistiche</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1 style="margin-top: 1rem;">
+        Cosa c'è in<br> <span class="accent">biblioteca</span>?
+      </h1>
+      <p class="lead">
+        Esplora il patrimonio librario del nostro istituto: opere della letteratura italiana, 
+        inglese e americana, raccolte e catalogate per generazioni di studenti.
+      </p>
+
+      <form class="search-bar" onsubmit="goToSearch(event)" role="search">
+        <span class="icon">⌕</span>
+        <input 
+          type="search" 
+          id="hero-search" 
+          name="q"
+          placeholder="Cerca per titolo, autore o editore…"
+          autocomplete="off"
+          aria-label="Cerca nel catalogo">
+      </form>
+
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat">
+          <span class="stat-num blue" id="stat-volumi">—</span>
+          <span class="stat-label">Volumi catalogati</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num ocra" id="stat-autori">—</span>
+          <span class="stat-label">Autori</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num rose" id="stat-temi">—</span>
+          <span class="stat-label">Aree tematiche</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num black" id="stat-anni">—</span>
+          <span class="stat-label">Anni di pubblicazioni</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="section-divider"></div>
+
+      <section style="margin: 3rem 0;">
+        <span class="eyebrow">Esplora per tema</span>
+        <h2 style="margin-top: 0.5rem; margin-bottom: 1rem;">Aree tematiche</h2>
+        <p style="color: var(--gray-700); max-width: 60ch;">
+          Ogni volume è classificato secondo aree tematiche individuabili da una selezione di parole chiave. 
+          Scegli un tema per scoprire le letture suggerite.
+        </p>
+        <div class="tema-cloud" id="tema-cloud" style="margin-top: 2rem;"></div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section style="margin: 3rem 0;">
+        <span class="eyebrow">Aggiunte recenti</span>
+        <h2 style="margin-top: 0.5rem; margin-bottom: 2rem;">Ultime catalogazioni</h2>
+        <div class="book-grid" id="recent-books"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="col">
+        <a href="index.html" class="brand">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <div class="brand-sub">Biblioteca Digitale</div>
+        </a>
+        <p class="mt-2">Contatti: <small><a style="color:var(--ocra)" href="biblioteca@paschinilinussio.edu.it"> biblioteca@paschinilinussio.edu.it</a></small></p>
+      </div>
+      <div class="col">
+        <h4>Risorse correlate</h4>
+        <p>
+          <a href="https://opac.sbn.it" target="_blank" rel="noopener">OPAC SBN ↗</a><br>
+          <a href="https://www.leggereinfriuli.it/SebinaOpac/.do" target="_blank" rel="noopener">LeggereInFriuli ↗</a>
+        </p>
+      </div>
+      <div class="col">
+        <h4>Note metodologiche</h4>
+          <div>
+            <small>Con il supporto di</small>
+            <div>
+              <a href="https://fondazionefriuli.it/">
+                <img src="https://fondazionefriuli.it/static/home/imgs/logo-color.svg" style="max-width: 10em">
+              </a>
+            </div>
+          </div>
+          <small id="last-update">Catalogo aggiornato al 17 maggio 2026.</small>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script>
+    function goToSearch(e) {
+      e.preventDefault();
+      const q = document.getElementById('hero-search').value.trim();
+      window.location.href = 'catalogo.html' + (q ? '?q=' + encodeURIComponent(q) : '');
+    }
+
+    (async function init() {
+      try {
+        const books = await window.LibApp.loadBooks();
+        const stats = window.LibApp.aggregateStats(books);
+        
+        document.getElementById('stat-volumi').textContent = books.length.toLocaleString('it-IT');
+        document.getElementById('stat-autori').textContent = Object.keys(stats.autori).length.toLocaleString('it-IT');
+        document.getElementById('stat-temi').textContent = Object.keys(stats.temi).length;
+        document.getElementById('stat-anni').textContent = (stats.annoMax - stats.annoMin) + 1;
+        
+        const temiOrdered = Object.entries(stats.temi).sort((a,b) => b[1] - a[1]);
+        document.getElementById('tema-cloud').innerHTML = temiOrdered
+          .map(([t, c]) => `<a href="catalogo.html?tema=${encodeURIComponent(t)}" class="tema-link">${window.LibApp.escapeHTML(t)} <span class="count">${c}</span></a>`)
+          .join('');
+        
+        const recent = [...books].sort((a,b) => b.id - a.id).slice(0, 8);
+        document.getElementById('recent-books').innerHTML = recent.map(window.LibApp.bookCardHTML).join('');
+        
+        const today = new Date();
+        document.getElementById('last-update').textContent = 
+          'Catalogo aggiornato al ' + today.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' });
+      } catch (err) {
+        console.error(err);
+        document.getElementById('hero-stats').innerHTML = 
+          '<p style="color: var(--rose);">Impossibile caricare i dati del catalogo.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>

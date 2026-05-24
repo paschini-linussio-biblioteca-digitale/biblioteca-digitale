@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistiche — Biblioteca Digitale del Liceo</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAANdrf3qj7dPWmyaC/dAAAAAXRSTlMAQObYZgAAACRJREFUeAFjwASsoWAQQCkDE3CtAoMFlDIwAf9/MPhAKQMDAACA52+RIZud2AAAAABJRU5ErkJggg==" class="brand-logo" alt="">
+        <span class="brand-text">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <span class="brand-sub">Biblioteca Digitale</span>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Apri menu">Menu</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="catalogo.html">Catalogo</a>
+        <a href="statistiche.html">Statistiche</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 3rem;">
+    <span class="eyebrow">I numeri della Biblioteca</span>
+    <h1 style="margin: 0.5rem 0 1.5rem; font-size: clamp(2.5rem, 5vw, 4rem); font-style: italic;">
+      Dati, statistiche e tendenze
+    </h1>
+    <p style="color: var(--gray-700); max-width: 65ch; margin-bottom: 3rem; font-size: 1.1rem;">
+      Una lettura quantitativa del nostro patrimonio librario: uno studio del rapporto tra opere della biblioteca e informazioni del registro prestiti dell'istituto.  
+    </p>
+
+    <div class="hero-stats" id="overview-stats" style="margin: 0 0 4rem; justify-content: flex-start; gap: 4rem;"></div>
+
+    <div class="stats-grid">
+      
+      <div class="stat-card">
+        <h3>Distribuzione per sezione</h3>
+        <ul class="bar-chart" id="chart-sezioni"></ul>
+      </div>
+
+      <div class="stat-card">
+        <h3>Volumi per tema</h3>
+        <ul class="bar-chart ocra" id="chart-temi"></ul>
+      </div>
+
+      <div class="stat-card full">
+        <h3>Distribuzione per decennio di pubblicazione</h3>
+        <div class="decade-chart" id="chart-decadi"></div>
+      </div>
+
+      <div class="stat-card">
+        <h3>Autori più rappresentati</h3>
+        <ul class="bar-chart" id="chart-autori"></ul>
+      </div>
+
+      <div class="stat-card">
+        <h3>Editori più presenti</h3>
+        <ul class="bar-chart rose" id="chart-editori"></ul>
+      </div>
+
+      <div class="stat-card full">
+        <h3>Libri più prestati (2003-oggi)</h3>
+        <table class="prestiti-table">
+          <thead>
+            <tr>
+              <th class="pos">#</th>
+              <th>Titolo</th>
+              <th class="num">Anni</th>
+              <th class="num">Prestiti totali</th>
+            </tr>
+          </thead>
+          <tbody id="top-prestiti"></tbody>
+        </table>
+      </div>
+
+      <div class="stat-card full">
+        <h3>Andamento totale dei prestiti per anno</h3>
+        <div class="decade-chart" id="chart-prestiti-anni" style="height: 200px;"></div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="col">
+        <a href="index.html" class="brand">
+          <span class="brand-name">ISIS Paschini-Linussio</span>
+          <div class="brand-sub">Biblioteca Digitale</div>
+        </a>
+        <p class="mt-2">Contatti: <small><a style="color:var(--ocra)" href="biblioteca@paschinilinussio.edu.it"> biblioteca@paschinilinussio.edu.it</a></small></p>
+      </div>
+      <div class="col">
+        <h4>Risorse correlate</h4>
+        <p>
+          <a href="https://opac.sbn.it" target="_blank" rel="noopener">OPAC SBN ↗</a><br>
+          <a href="https://www.leggereinfriuli.it/SebinaOpac/.do" target="_blank" rel="noopener">LeggereInFriuli ↗</a>
+        </p>
+      </div>
+      <div class="col">
+        <h4>Note metodologiche</h4>
+          <div>
+            <small>Con il supporto di</small>
+            <div>
+              <a href="https://fondazionefriuli.it/">
+                <img src="https://fondazionefriuli.it/static/home/imgs/logo-color.svg" style="max-width: 10em">
+              </a>
+            </div>
+          </div>
+          <small id="last-update">Catalogo aggiornato al 17 maggio 2026.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/stats.js"></script>
+</body>
+</html>
