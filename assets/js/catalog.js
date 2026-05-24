@@ -23,7 +23,8 @@ const state = {
 let observer = null;  // IntersectionObserver per infinite scroll
 let sentinel = null;  // elemento da osservare alla fine della lista
 
-// --------- INIETTA STILI per le card del catalogo ---------
+// --------- INIETTA STILI specifici del catalogo (solo infinite-scroll) ---------
+// NB: gli stili delle card (.book-card) sono condivisi e vivono in style.css.
 (function injectCatalogStyles() {
   const css = `
     .catalog-cards {
@@ -34,96 +35,6 @@ let sentinel = null;  // elemento da osservare alla fine della lista
       padding: 0;
       margin: 1.5rem 0 0;
     }
-    .cat-card {
-      display: flex;
-      flex-direction: column;
-      text-decoration: none;
-      color: inherit;
-      border-radius: var(--radius-lg);
-      padding: 1.5rem;
-      min-height: 240px;
-      transition: transform 0.2s, box-shadow 0.2s;
-      position: relative;
-      overflow: hidden;
-    }
-    .cat-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 14px 32px rgba(0,0,0,0.14);
-      color: inherit;
-    }
-    .cat-card.cc-1 { background: var(--blue); color: var(--white); }
-    .cat-card.cc-2 { background: var(--ocra); color: var(--gray-900); }
-    .cat-card.cc-3 { background: var(--rose); color: var(--white); }
-    .cat-card.cc-4 { background: var(--gray-700); color: var(--white); }
-    .cat-card.cc-5 { background: var(--blue-soft); color: var(--blue-dark); }
-    .cat-card.cc-6 { background: var(--ocra-soft); color: #6b4d10; }
-    .cat-card.cc-7 { background: var(--rose-soft); color: #7d2c40; }
-    .cat-card.cc-8 { background: var(--black); color: var(--white); }
-
-    .cat-card-sezione {
-      font-family: var(--font-mono);
-      font-size: 0.66rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      font-weight: 600;
-      opacity: 0.8;
-      margin-bottom: 1.25rem;
-    }
-
-    .cat-card-titolo {
-      font-family: var(--font-display);
-      font-size: 1.5rem;
-      font-weight: 500;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      margin: 0 0 0.4rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .cat-card-autore {
-      font-family: var(--font-display);
-      font-style: italic;
-      font-size: 1rem;
-      opacity: 0.85;
-      margin-bottom: 0.5rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .cat-card-anno {
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      opacity: 0.75;
-      letter-spacing: 0.04em;
-    }
-
-    .cat-card-temi {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-      margin-top: auto;
-      padding-top: 1.25rem;
-    }
-    .cat-card-temi .ct-tag {
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      padding: 0.22rem 0.55rem;
-      background: rgba(255,255,255,0.18);
-      border-radius: var(--radius);
-      white-space: nowrap;
-    }
-    .cat-card.cc-2 .ct-tag,
-    .cat-card.cc-5 .ct-tag,
-    .cat-card.cc-6 .ct-tag,
-    .cat-card.cc-7 .ct-tag {
-      background: rgba(0,0,0,0.10);
-    }
-
     .scroll-sentinel {
       grid-column: 1 / -1;
       height: 1px;
@@ -404,22 +315,23 @@ function applySort(arr) {
 // --------- RENDERING ---------
 
 function catalogCardHTML(book) {
-  const colorVariant = ((book.id - 1) % 8) + 1;
   const E = window.LibApp.escapeHTML;
+  const id = String(book.id).padStart(4, '0');
   const annoLabel = book.anno || 's.d.';
   const sezione = book.sezione || 'Non classificato';
   const temi = (book.temi || []);
-  
-  const temiHTML = temi.length 
-    ? `<div class="cat-card-temi">${temi.map(t => `<span class="ct-tag">${E(t)}</span>`).join('')}</div>`
+
+  const temiHTML = temi.length
+    ? `<div class="bookcard-temi">${temi.map(t => `<span class="bookcard-tag">${E(t)}</span>`).join('')}</div>`
     : '';
-  
+
+  // Stessa card condivisa (.book-card) ma con la variante "completa": più metadati.
   return `
-    <a href="libro.html?id=${book.id}" class="cat-card cc-${colorVariant}">
-      <div class="cat-card-sezione">${E(sezione)}</div>
-      <div class="cat-card-titolo">${E(book.titolo)}</div>
-      <div class="cat-card-autore">${E(book.autore || 'Anonimo')}</div>
-      <div class="cat-card-anno">${annoLabel}</div>
+    <a href="libro.html?id=${book.id}" class="book-card book-card--full">
+      <div class="bookcard-num">N. ${id} · ${E(sezione)}</div>
+      <div class="bookcard-titolo">${E(book.titolo)}</div>
+      <div class="bookcard-autore">${E(book.autore || 'Anonimo')}</div>
+      <div class="bookcard-anno">${annoLabel}</div>
       ${temiHTML}
     </a>
   `;
