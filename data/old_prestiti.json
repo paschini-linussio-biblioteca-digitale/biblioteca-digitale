@@ -157,10 +157,9 @@
     "autore": "Calvino, Italo"
   },
   "Il filo dell'orizzonte": {
-    "totale": 2,
+    "totale": 1,
     "per_anno": {
-      "2003": 1,
-      "2005": 1
+      "2003": 1
     },
     "matched": true,
     "autore": "Tabucchi, Antonio"
@@ -183,8 +182,8 @@
       "2006": 1,
       "2009": 1
     },
-    "matched": true,
-    "autore": "Wilde, Oscar"
+    "matched": false,
+    "autore": "Wilde Oscar"
   },
   "La boutique del mistero": {
     "totale": 2,
@@ -196,11 +195,10 @@
     "autore": "Buzzati, Dino"
   },
   "Se una notte d'inverno un viaggiatore": {
-    "totale": 8,
+    "totale": 7,
     "per_anno": {
       "2003": 1,
       "2006": 1,
-      "2008": 1,
       "2009": 1,
       "2011": 1,
       "2013": 1,
@@ -302,8 +300,8 @@
       "2006": 1,
       "2007": 1
     },
-    "matched": true,
-    "autore": "Poe, Edgar Allan"
+    "matched": false,
+    "autore": "Poe Edgar Allan"
   },
   "Quaderni di Serafino Gubbio operatore": {
     "totale": 2,
@@ -311,8 +309,8 @@
       "2003": 1,
       "2026": 1
     },
-    "matched": true,
-    "autore": "Pirandello, Luigi"
+    "matched": false,
+    "autore": "Pirandello Luigi"
   },
   "Macno": {
     "totale": 4,
@@ -341,8 +339,8 @@
       "2009": 1,
       "2013": 1
     },
-    "matched": true,
-    "autore": "Calvino, Italo"
+    "matched": false,
+    "autore": "Calvino Italo"
   },
   "Il quinto angolo": {
     "totale": 2,
@@ -372,8 +370,8 @@
       "2003": 1,
       "2022": 1
     },
-    "matched": true,
-    "autore": "Woolf, Virginia"
+    "matched": false,
+    "autore": "Woolf Virginia"
   },
   "Opinioni di un clown": {
     "totale": 2,
@@ -385,12 +383,11 @@
     "autore": "Böll Heinrich"
   },
   "Ti con zero": {
-    "totale": 4,
+    "totale": 3,
     "per_anno": {
       "2003": 1,
       "2006": 1,
-      "2009": 1,
-      "2022": 1
+      "2009": 1
     },
     "matched": true,
     "autore": "Calvino, Italo"
@@ -416,14 +413,13 @@
     "matched": false,
     "autore": "Buzzati Dino"
   },
-  "La speculazione edilizia": {
-    "totale": 2,
+  "La speculazione edlizia": {
+    "totale": 1,
     "per_anno": {
-      "2003": 1,
-      "2008": 1
+      "2003": 1
     },
-    "matched": true,
-    "autore": "Calvino, Italo"
+    "matched": false,
+    "autore": "Calvino Italo"
   },
   "Una pistola in vendita": {
     "totale": 3,
@@ -489,8 +485,8 @@
       "2003": 1,
       "2008": 1
     },
-    "matched": true,
-    "autore": "Poe, Edgar Allan"
+    "matched": false,
+    "autore": "Poe Edgar Allan"
   },
   "Storia della Filosofia": {
     "totale": 1,
@@ -1201,13 +1197,12 @@
     "autore": "De Luna, Giovanni"
   },
   "Il nostro agente all'Avana": {
-    "totale": 3,
+    "totale": 2,
     "per_anno": {
-      "2005": 2,
-      "2006": 1
+      "2005": 2
     },
-    "matched": false,
-    "autore": "Greener Graham"
+    "matched": true,
+    "autore": "Greene, Graham"
   },
   "Radioecologia": {
     "totale": 2,
@@ -1274,8 +1269,8 @@
     "per_anno": {
       "2005": 1
     },
-    "matched": true,
-    "autore": "Calvino, Italo"
+    "matched": false,
+    "autore": "Calvino Italo"
   },
   "Elettricità e magnetismo parte 1": {
     "totale": 1,
@@ -1376,14 +1371,13 @@
     "matched": true,
     "autore": "Aleramo, Sibilla"
   },
-  "Argo il cieco ovvero I sogni della memoria": {
-    "totale": 2,
+  "Argo il cieco": {
+    "totale": 1,
     "per_anno": {
-      "2005": 1,
-      "2006": 1
+      "2005": 1
     },
-    "matched": true,
-    "autore": "Bufalino, Gesualdo"
+    "matched": false,
+    "autore": "Bufalino Gesualdo"
   },
   "Amo dunque sono": {
     "totale": 1,
@@ -1435,14 +1429,13 @@
     "matched": true,
     "autore": "Tobino, Mario"
   },
-  "L'uomo nel labirinto": {
-    "totale": 2,
+  "L'uomo del labirinto": {
+    "totale": 1,
     "per_anno": {
-      "2005": 1,
-      "2025": 1
+      "2005": 1
     },
-    "matched": true,
-    "autore": "Alvaro, Corrado"
+    "matched": false,
+    "autore": "Alvaro Corrado"
   },
   "Vestivamo alla marinara": {
     "totale": 2,
@@ -1454,10 +1447,9 @@
     "autore": "Agnelli, Susanna"
   },
   "Piccoli equivoci senza importanza": {
-    "totale": 2,
+    "totale": 1,
     "per_anno": {
-      "2005": 1,
-      "2018": 1
+      "2005": 1
     },
     "matched": true,
     "autore": "Tabucchi, Antonio"
@@ -1469,6 +1461,14 @@
     },
     "matched": true,
     "autore": "Tondelli, Pier Vittorio"
+  },
+  "Il figlio dell'orizzonte": {
+    "totale": 1,
+    "per_anno": {
+      "2005": 1
+    },
+    "matched": false,
+    "autore": "Tabucchi Antonio"
   },
   "I pugnalatori": {
     "totale": 2,
@@ -1516,8 +1516,8 @@
     "per_anno": {
       "2005": 1
     },
-    "matched": true,
-    "autore": "Pratolini, Vasco"
+    "matched": false,
+    "autore": "Pratolini Vasco"
   },
   "Ungaretti - Tutte le poesie": {
     "totale": 1,
@@ -1641,27 +1641,25 @@
     "matched": false,
     "autore": "Forti Marco"
   },
-  "Un anno sull'altipiano": {
-    "totale": 3,
+  "Un anno sull'altopiano": {
+    "totale": 1,
     "per_anno": {
-      "2006": 1,
-      "2009": 1,
-      "2010": 1
+      "2006": 1
     },
-    "matched": true,
-    "autore": "Lussu, Emilio"
+    "matched": false,
+    "autore": "Lussu Emilio"
   },
-  "Marcovaldo": {
-    "totale": 5,
+  "Marcovaldo : Ovvero le stagioni in città": {
+    "totale": 6,
     "per_anno": {
-      "2006": 1,
+      "2006": 2,
       "2009": 1,
       "2010": 1,
       "2011": 1,
       "2018": 1
     },
-    "matched": true,
-    "autore": "Calvino, Italo"
+    "matched": false,
+    "autore": "Calvino Italo"
   },
   "Cent'anni di solitudine": {
     "totale": 1,
@@ -1694,6 +1692,22 @@
     },
     "matched": true,
     "autore": "Bronte, Emily"
+  },
+  "Il nostro agente dell'Avana": {
+    "totale": 1,
+    "per_anno": {
+      "2006": 1
+    },
+    "matched": false,
+    "autore": "Greener Graham"
+  },
+  "Argo il cieco ovvero I sogni della memoria": {
+    "totale": 1,
+    "per_anno": {
+      "2006": 1
+    },
+    "matched": true,
+    "autore": "Bufalino, Gesualdo"
   },
   "D'eroina sei morto figlio": {
     "totale": 1,
@@ -1752,7 +1766,7 @@
       "2018": 1,
       "2023": 1
     },
-    "matched": true,
+    "matched": false,
     "autore": "Orwell George"
   },
   "Lo sbaglio": {
@@ -1773,13 +1787,13 @@
     "matched": false,
     "autore": "Cervantes Saavedra Miguel : de"
   },
-  "Il contesto": {
-    "totale": 2,
+  "Il conteso": {
+    "totale": 1,
     "per_anno": {
-      "2006": 2
+      "2006": 1
     },
-    "matched": true,
-    "autore": "Sciascia, Leonardo"
+    "matched": false,
+    "autore": "Sciascia Leonardo"
   },
   "Sfera": {
     "totale": 2,
@@ -1822,7 +1836,7 @@
       "2024": 1,
       "2026": 1
     },
-    "matched": true,
+    "matched": false,
     "autore": "Orwell George"
   },
   "Il nome della rosa": {
@@ -1885,13 +1899,12 @@
     "autore": "Pazzi, Roberto"
   },
   "Il colombre e altri cinquanta racconti": {
-    "totale": 2,
+    "totale": 1,
     "per_anno": {
-      "2006": 1,
-      "2024": 1
+      "2006": 1
     },
-    "matched": true,
-    "autore": "Buzzati, Dino"
+    "matched": false,
+    "autore": "Buzzati Dino"
   },
   "cenere": {
     "totale": 1,
@@ -1916,14 +1929,6 @@
     },
     "matched": true,
     "autore": "Calvino, Italo"
-  },
-  "Marcovaldo : Ovvero le stagioni in città": {
-    "totale": 1,
-    "per_anno": {
-      "2006": 1
-    },
-    "matched": false,
-    "autore": "Calvino Italo"
   },
   "Signorina Else": {
     "totale": 1,
@@ -1958,6 +1963,14 @@
     "autore": "Deledda, Grazia"
   },
   "Gli zii di Sicilia": {
+    "totale": 1,
+    "per_anno": {
+      "2006": 1
+    },
+    "matched": true,
+    "autore": "Sciascia, Leonardo"
+  },
+  "Il contesto": {
     "totale": 1,
     "per_anno": {
       "2006": 1
@@ -2216,8 +2229,8 @@
       "2023": 2,
       "2024": 2
     },
-    "matched": true,
-    "autore": "Steinbeck, John"
+    "matched": false,
+    "autore": "Steinbeck John"
   },
   "L'edera": {
     "totale": 1,
@@ -2319,13 +2332,13 @@
     "matched": true,
     "autore": "Verga, Giovanni"
   },
-  "Tutte le novelle volume primo": {
+  "Tutte le novelle vol. 1": {
     "totale": 1,
     "per_anno": {
       "2007": 1
     },
-    "matched": true,
-    "autore": "Verga, Giovanni"
+    "matched": false,
+    "autore": "Verga Giovanni"
   },
   "Super-Eliogabalo": {
     "totale": 1,
@@ -2392,13 +2405,13 @@
     "matched": true,
     "autore": "Alighieri, Dante"
   },
-  "La Santa Rossa": {
+  "La santa rossa": {
     "totale": 1,
     "per_anno": {
       "2008": 1
     },
-    "matched": true,
-    "autore": "Steinbeck, John"
+    "matched": false,
+    "autore": "Steinbeck John"
   },
   "In alto mare": {
     "totale": 1,
@@ -2550,6 +2563,14 @@
     "matched": false,
     "autore": "Divakaruni Chitra B."
   },
+  "Se una notte di inverno un viaggiatore": {
+    "totale": 1,
+    "per_anno": {
+      "2008": 1
+    },
+    "matched": true,
+    "autore": "Calvino, Italo"
+  },
   "Che cos'è l'economia": {
     "totale": 1,
     "per_anno": {
@@ -2601,6 +2622,14 @@
     },
     "matched": true,
     "autore": "Pirandello, Luigi"
+  },
+  "La speculazione edilizia": {
+    "totale": 1,
+    "per_anno": {
+      "2008": 1
+    },
+    "matched": true,
+    "autore": "Calvino, Italo"
   },
   "Arboreto selvatico": {
     "totale": 1,
@@ -2673,8 +2702,8 @@
     "per_anno": {
       "2008": 1
     },
-    "matched": true,
-    "autore": "Poe, Edgar Allan"
+    "matched": false,
+    "autore": "Poe Edgar Allan"
   },
   "Tutte le novelle": {
     "totale": 1,
@@ -2951,6 +2980,15 @@
     },
     "matched": false,
     "autore": "Patterson Walter C."
+  },
+  "Un anno sull'altipiano": {
+    "totale": 2,
+    "per_anno": {
+      "2009": 1,
+      "2010": 1
+    },
+    "matched": true,
+    "autore": "Lussu, Emilio"
   },
   "Il garofano rosso": {
     "totale": 1,
@@ -3420,8 +3458,8 @@
     "per_anno": {
       "2011": 1
     },
-    "matched": true,
-    "autore": "D'Annunzio, Gabriele"
+    "matched": false,
+    "autore": "D'Annunzio Gabriele"
   },
   "Le vergini delle rocce": {
     "totale": 1,
@@ -3562,8 +3600,8 @@
       "2016": 1,
       "2023": 1
     },
-    "matched": true,
-    "autore": "Wilson, Susan"
+    "matched": false,
+    "autore": "Wilson Susan"
   },
   "Stelle di cannella": {
     "totale": 1,
@@ -3999,13 +4037,13 @@
     "matched": true,
     "autore": "Ammaniti, Niccolò"
   },
-  "Le cosmicomiche": {
+  "Cosmicomiche": {
     "totale": 1,
     "per_anno": {
       "2016": 1
     },
-    "matched": true,
-    "autore": "Calvino, Italo"
+    "matched": false,
+    "autore": "Calvino Italo"
   },
   "Candido": {
     "totale": 1,
@@ -4055,6 +4093,14 @@
     "matched": false,
     "autore": "Finley Moses I."
   },
+  "Piccoli equivoci": {
+    "totale": 1,
+    "per_anno": {
+      "2018": 1
+    },
+    "matched": false,
+    "autore": "Tabucchi Antonio"
+  },
   "La ragazza del secolo scorso": {
     "totale": 1,
     "per_anno": {
@@ -4084,8 +4130,8 @@
     "per_anno": {
       "2018": 1
     },
-    "matched": true,
-    "autore": "Sgorlon, Carlo"
+    "matched": false,
+    "autore": "Sgorlon Carlo"
   },
   "Il viaggio misterioso": {
     "totale": 1,
@@ -4201,6 +4247,14 @@
     "matched": true,
     "autore": "Benni, Stefano"
   },
+  "Ti zon zero": {
+    "totale": 1,
+    "per_anno": {
+      "2022": 1
+    },
+    "matched": false,
+    "autore": "Calvino Italo"
+  },
   "Napoli": {
     "totale": 1,
     "per_anno": {
@@ -4296,8 +4350,8 @@
     "per_anno": {
       "2022": 2
     },
-    "matched": true,
-    "autore": "Bonanni, Devis"
+    "matched": false,
+    "autore": "Bonanni Devis"
   },
   "Siddharta": {
     "totale": 4,
@@ -4693,8 +4747,8 @@
     "per_anno": {
       "2023": 1
     },
-    "matched": true,
-    "autore": "Shakespeare, William"
+    "matched": false,
+    "autore": "Shakespeare William"
   },
   "Foreste, Uomo, Economia nel Friuli Venezia Giulia": {
     "totale": 1,
@@ -4728,13 +4782,13 @@
     "matched": false,
     "autore": "Bertoldi Silvio"
   },
-  "I segreti d'Italia : storie, luoghi, personaggi nel romanzo di una nazione": {
+  "I segreti d'Italia": {
     "totale": 2,
     "per_anno": {
       "2023": 2
     },
-    "matched": true,
-    "autore": "Augias, Corrado"
+    "matched": false,
+    "autore": "Augias Corrado"
   },
   "Sostiene Pereira": {
     "totale": 4,
@@ -4792,7 +4846,7 @@
       "2026": 1
     },
     "matched": true,
-    "autore": "D'Avenia, Alessandro"
+    "autore": "D'avenia, Alessandro"
   },
   "Regione in cifre 2023": {
     "totale": 1,
@@ -4875,6 +4929,14 @@
     "autore": "Kafka Franz"
   },
   "Sessanta racconti": {
+    "totale": 1,
+    "per_anno": {
+      "2024": 1
+    },
+    "matched": true,
+    "autore": "Buzzati, Dino"
+  },
+  "Il colombre": {
     "totale": 1,
     "per_anno": {
       "2024": 1
@@ -5046,7 +5108,7 @@
     "matched": true,
     "autore": "Terzani, Tiziano"
   },
-  "La tomba di Alessandro : l'enigma": {
+  "La tomba di Alessandro": {
     "totale": 2,
     "per_anno": {
       "2024": 1,
@@ -5177,12 +5239,12 @@
     "matched": true,
     "autore": "Longo, Francesca"
   },
-  "Paranoid park": {
+  "Paranoid Park": {
     "totale": 1,
     "per_anno": {
       "2025": 1
     },
-    "matched": true,
+    "matched": false,
     "autore": "Nelson Blake"
   },
   "La leggendaria storia di Verruca Murphy e del suo orribile sparapatate": {
@@ -5198,16 +5260,24 @@
     "per_anno": {
       "2025": 1
     },
+    "matched": false,
+    "autore": "Richler Mordecai"
+  },
+  "L'uomo nel labirinto": {
+    "totale": 1,
+    "per_anno": {
+      "2025": 1
+    },
     "matched": true,
-    "autore": "Richler, Mordecai"
+    "autore": "Alvaro, Corrado"
   },
   "Il sergente nella neve": {
     "totale": 1,
     "per_anno": {
       "2026": 1
     },
-    "matched": true,
-    "autore": "Rigoni Stern, Mario"
+    "matched": false,
+    "autore": "Rigoni Stern Mario"
   },
   "Quer pasticciaccio brutto de via Merulana": {
     "totale": 2,
@@ -5270,8 +5340,8 @@
     "per_anno": {
       "2026": 1
     },
-    "matched": true,
-    "autore": "McEwan, Ian"
+    "matched": false,
+    "autore": "McEwan Ian"
   },
   "Io sono l'arcobaleno": {
     "totale": 1,
